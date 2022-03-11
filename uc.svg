@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="362px" preserveAspectRatio="none" style="width:586px;height:362px;background:#FFFFFF;" version="1.1" viewBox="0 0 586 362" width="586px" zoomAndPan="magnify"><defs/><g><!--MD5=[a89e65f59bcfad8ce2d703a521d19229]
+cluster Gestion--><g id="cluster_Gestion"><rect height="349" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;fill:none;" width="451" x="129" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="63" x="323" y="21.9951">Gestion</text></g><g id="elem_GCH"><ellipse cx="226.4455" cy="154.1891" fill="#F1F1F1" rx="81.4455" ry="18.6891" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="164.3109" y="157.409">Gerer le chantier</text></g><g id="elem_MDDCH"><ellipse cx="489.42" cy="185.984" fill="#F1F1F1" rx="65.42" ry="15.484" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="446.42" y="189.7316">date début</text></g><g id="elem_MDFCH"><ellipse cx="489.3543" cy="121.2084" fill="#F1F1F1" rx="51.8543" ry="14.7084" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="458.3543" y="124.956">date fin</text></g><g id="elem_MADCH"><ellipse cx="489.6079" cy="57.2016" fill="#F1F1F1" rx="51.1079" ry="14.7016" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="459.1079" y="60.9492">adresse</text></g><g id="elem_GART"><ellipse cx="226.4333" cy="247.9867" fill="#F1F1F1" rx="70.4333" ry="16.4867" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="176.4333" y="251.7342">Gerer artisan</text></g><g id="elem_GARTS"><ellipse cx="489.6066" cy="321.8213" fill="#F1F1F1" rx="74.6066" ry="17.3213" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="434.1066" y="325.5689">salaire horaire</text></g><g id="elem_GARTC"><ellipse cx="489.5529" cy="253.2106" fill="#F1F1F1" rx="71.5529" ry="16.7106" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="442.0529" y="256.9581">coordonnées</text></g><!--MD5=[f38b7e6393ba0664c21da62e7868947a]
+entity entreprise--><g id="elem_entreprise"><ellipse cx="44" cy="165.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M44,173.5 L44,200.5 M31,181.5 L57,181.5 M44,200.5 L31,215.5 M44,200.5 L57,215.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="6" y="229.9951">Entreprise</text></g><!--MD5=[4b9fc58c6ae8846a1f189c56226c08d8]
+link entreprise to GCH--><g id="link_entreprise_GCH"><path d="M82.3997,186.505 C105.7302,181.205 136.336,174.253 163.253,168.139 " fill="none" id="entreprise-to-GCH" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="168.234,167.008,158.5712,165.1029,163.3584,168.1165,160.3448,172.9038,168.234,167.008" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[95696971f9737676893a6ebf4a0c46ad]
+reverse link GCH to MDDCH--><g id="link_GCH_MDDCH"><path d="M279.672,170.402 C297.933,175.417 318.697,180.313 338,183 C366.214,186.927 397.686,188.054 424.527,188.053 " fill="none" id="GCH-backto-MDDCH" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="274.592,168.987,282.1891,175.2547,279.4087,170.3283,284.3352,167.548,274.592,168.987" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="45" x="339" y="179.0669">extend</text></g><!--MD5=[99f7593c395237e6fd1eb3b52c5bf70c]
+reverse link GCH to MDFCH--><g id="link_GCH_MDFCH"><path d="M303.256,144.422 C348.006,138.764 403.245,131.779 441.704,126.917 " fill="none" id="GCH-backto-MDFCH" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="298.13,145.07,307.5606,147.9098,303.0905,144.443,306.5573,139.9729,298.13,145.07" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="45" x="339" y="130.0669">extend</text></g><!--MD5=[052eabb5fc49861b7c432079292d4eba]
+reverse link GCH to MADCH--><g id="link_GCH_MADCH"><path d="M270.709,135.772 C291.03,127.362 315.653,117.404 338,109 C378.106,93.918 424.818,78.036 455.435,67.852 " fill="none" id="GCH-backto-MADCH" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="265.908,137.763,275.7538,138.0096,270.5265,135.8473,272.6887,130.62,265.908,137.763" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="45" x="339" y="88.0669">extend</text></g><!--MD5=[8e736eaf12c396f02aec4dc46aec0e32]
+link entreprise to GART--><g id="link_entreprise_GART"><path d="M82.3997,205.982 C109.732,214.007 147.048,224.964 176.722,233.677 " fill="none" id="entreprise-to-GART" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="181.792,235.166,174.2835,228.7924,176.9945,233.7573,172.0296,236.4684,181.792,235.166" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b16e70212fa11176c07c650d32833170]
+reverse link GART to GARTS--><g id="link_GART_GARTS"><path d="M277.128,262.071 C324.257,275.4331 394.616,295.3817 441.023,308.539 " fill="none" id="GART-backto-GARTS" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="272.071,260.637,279.6385,266.9405,276.8814,262.001,281.8208,259.2439,272.071,260.637" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="45" x="339" y="276.0669">extend</text></g><!--MD5=[f05ce00c47f0fb7786d8fe8046a6bdf7]
+reverse link GART to GARTC--><g id="link_GART_GARTC"><path d="M302.422,249.435 C338.852,250.133 382.388,250.967 418.187,251.653 " fill="none" id="GART-backto-GARTC" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="297.1,249.333,306.0218,253.5046,302.0991,249.4287,306.1749,245.506,297.1,249.333" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="45" x="339" y="246.0669">extend</text></g><!--MD5=[50a5b983e545e164f75996cb755bb88d]
+@startuml
+left to right direction
+:Entreprise: as entreprise 
+
+rectangle Gestion {
+usecase "Gerer le chantier" as GCH
+usecase "date début" as MDDCH
+usecase "date fin" as MDFCH
+usecase "adresse" as MADCH
+
+usecase "Gerer artisan" as GART 
+usecase "salaire horaire " as GARTS 
+usecase " coordonnées" as GARTC
+}
+entreprise - -> GCH
+
+GCH  <.. MDDCH : extend
+GCH  <.. MDFCH : extend
+GCH  <.. MADCH : extend
+
+entreprise - -> GART
+
+GART <.. GARTS : extend 
+GART <.. GARTC : extend
+@enduml
+
+PlantUML version 1.2022.3beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
