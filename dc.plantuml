@@ -1,0 +1,62 @@
+@startuml test
+
+hide circle
+hide empty members
+hide empty methods
+
+skinparam classAttributeIconSize 0
+
+skinparam roundcorner 5
+
+skinparam class {
+	BackgroundColor AliceBlue
+	BorderColor DarkSlateGray
+	ArrowColor Black
+	FontColor Black
+	FontSize 12
+	FontName Helvetica
+}
+
+skinparam arrow {
+    MessageAlign center
+}
+
+
+
+class Chantier{  
+	date debut
+    date fin 
+    adresse
+}
+
+class Artisan{
+    coordonnées
+	salaireTotal
+}
+
+class Entreprise{
+}
+
+
+
+Entreprise --> Chantier
+Entreprise --> Artisan
+
+mission "0..*" -- "1" Chantier
+mission "0..*" -- "1" Artisan
+(Artisan, Chantier ) .. Paiement
+
+class Paiement {
+	    salaire horaire
+		
+
+}
+
+class mission{
+	date debut 
+	date fin 
+	nombre d’heures
+}
+
+
+@enduml

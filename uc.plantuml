@@ -1,0 +1,26 @@
+@startuml
+left to right direction
+:Entreprise: as entreprise 
+
+rectangle Gestion {
+usecase "Gerer le chantier" as GCH
+usecase "date début" as MDDCH
+usecase "date fin" as MDFCH
+usecase "adresse" as MADCH
+
+usecase "Gerer artisan" as GART 
+usecase "salaire horaire " as GARTS 
+usecase " coordonnées" as GARTC
+}
+entreprise --> GCH
+
+GCH  <.. MDDCH : extend
+GCH  <.. MDFCH : extend
+GCH  <.. MADCH : extend
+
+entreprise --> GART
+
+GART <.. GARTS : extend 
+GART <.. GARTC : extend 
+
+@enduml
